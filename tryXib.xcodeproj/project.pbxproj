@@ -12,6 +12,8 @@
 		21026BCF1E6C538D00C5848F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21026BCD1E6C538D00C5848F /* Main.storyboard */; };
 		21026BD11E6C538D00C5848F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21026BD01E6C538D00C5848F /* Assets.xcassets */; };
 		21026BD41E6C538D00C5848F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21026BD21E6C538D00C5848F /* LaunchScreen.storyboard */; };
+		21026BDC1E6C543A00C5848F /* SampleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21026BDB1E6C543A00C5848F /* SampleView.xib */; };
+		21026BDE1E6C551A00C5848F /* SampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21026BDD1E6C551A00C5848F /* SampleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		21026BD01E6C538D00C5848F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21026BD31E6C538D00C5848F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21026BD51E6C538D00C5848F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21026BDB1E6C543A00C5848F /* SampleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SampleView.xib; sourceTree = "<group>"; };
+		21026BDD1E6C551A00C5848F /* SampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				21026BD01E6C538D00C5848F /* Assets.xcassets */,
 				21026BD21E6C538D00C5848F /* LaunchScreen.storyboard */,
 				21026BD51E6C538D00C5848F /* Info.plist */,
+				21026BDB1E6C543A00C5848F /* SampleView.xib */,
+				21026BDD1E6C551A00C5848F /* SampleViewController.swift */,
 			);
 			path = tryXib;
 			sourceTree = "<group>";
@@ -92,7 +98,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
-				ORGANIZATIONNAME = konomi_ban;
+				ORGANIZATIONNAME = jote;
 				TargetAttributes = {
 					21026BC51E6C538D00C5848F = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -123,6 +129,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21026BDC1E6C543A00C5848F /* SampleView.xib in Resources */,
 				21026BD41E6C538D00C5848F /* LaunchScreen.storyboard in Resources */,
 				21026BD11E6C538D00C5848F /* Assets.xcassets in Resources */,
 				21026BCF1E6C538D00C5848F /* Main.storyboard in Resources */,
@@ -138,6 +145,7 @@
 			files = (
 				21026BCC1E6C538D00C5848F /* ViewController.swift in Sources */,
 				21026BCA1E6C538D00C5848F /* AppDelegate.swift in Sources */,
+				21026BDE1E6C551A00C5848F /* SampleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

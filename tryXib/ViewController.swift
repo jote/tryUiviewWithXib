@@ -2,17 +2,18 @@
 //  ViewController.swift
 //  tryXib
 //
-//  Created by konomi_ban on 2017/03/05.
-//  Copyright © 2017年 konomi_ban. All rights reserved.
+//  Created by jote on 2017/03/05.
+//  Copyright © 2017年 jote. All rights reserved.
 //
 
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var contentView: SampleViewController!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
     }
 
     override func didReceiveMemoryWarning() {
